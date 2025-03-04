@@ -1,6 +1,7 @@
  #  LeetCode Stats  
 
 ![Leetcode Stats](https://leetcard.jacoblin.cool/simpostor?ext=activity) 
+
 ![Leetcode Stats](https://leetcard.jacoblin.cool/simpostor??ext=heatmap)
 
 #  LeetCode Journey  
