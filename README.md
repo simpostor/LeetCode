@@ -1,4 +1,8 @@
-# 🚀 LeetCode Journey  
+#  LeetCode Stats  
+
+![Leetcode Stats](https://leetcard.jacoblin.cool/simpostor?theme=dark&ext=activity,heatmap)
+
+#  LeetCode Journey  
 
 This repository documents my **daily DSA practice**, **LeetCode contests**, and solutions to **popular problems**. Currently solving in **Java**, with plans to expand to other languages in the future.  
 
@@ -12,3 +16,4 @@ This repository documents my **daily DSA practice**, **LeetCode contests**, and 
 ✅ **Solving problems consistently & improving problem-solving skills!**  
 
 Stay tuned for more updates! 🔥  
+
