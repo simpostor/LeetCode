@@ -1,8 +1,9 @@
  #  LeetCode Stats  
 
-![Leetcode Stats](https://leetcard.jacoblin.cool/simpostor?ext=activity) 
+| LeetCode Activity | LeetCode Heatmap |
+|-------------------|-----------------|
+| <img src="https://leetcard.jacoblin.cool/simpostor?theme=dark&ext=activity" width="400" alt="LeetCode Activity" /> | <img src="https://leetcard.jacoblin.cool/simpostor?theme=dark&ext=heatmap" width="400" alt="LeetCode Heatmap" /> |
 
-![Leetcode Stats](https://leetcard.jacoblin.cool/simpostor?ext=heatmap)
 
 #  LeetCode Journey  
 
