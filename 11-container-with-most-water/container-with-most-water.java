@@ -4,12 +4,14 @@ class Solution {
         int r = height.length-1;
         int maxwater = 0;
         while(l < r){
-            int water = (r-l)*(Math.min(height[l], height[r]));
+            int len = r-l;
+            int breadth = (Math.min(height[l], height[r]));
+            int water = len*breadth;
             maxwater = Math.max(maxwater, water);
-            if(height[l] <= height[r]){
+            while(l<r && height[l] <= breadth){
                 l++;
             }
-            else
+            while(l<r && height[r] <= breadth)
                 r--;
         }
         return maxwater;
