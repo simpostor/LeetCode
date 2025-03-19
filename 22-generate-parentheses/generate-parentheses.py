@@ -3,16 +3,17 @@ class Solution:
         stack=[]
         res=[]
         def backtrack(closeN,openN):
-            if closeN==openN==n:
+            if closeN==openN==n:#base case
                 res.append("".join(stack))
                 return
-            if closeN<openN:
-                stack.append(')')
-                backtrack(closeN+1,openN)
-                stack.pop()
-            if openN<n:
+            if openN<n:#open bracket whenever open < n
                 stack.append('(')
                 backtrack(closeN,openN+1)
                 stack.pop()
+            if closeN<openN: # close braket only when close less than open
+                stack.append(')')
+                backtrack(closeN+1,openN)
+                stack.pop()
+            
         backtrack(0,0)
         return res
