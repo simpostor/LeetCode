@@ -57,10 +57,10 @@ class Solution {
                 if(ycount == 0)
                     cuty++;
             }
-
+            if(cutx >= 3 || cuty >= 3)
+                return true;
         }
-        if(cutx >= 3 || cuty >= 3)
-            return true;
+
         return false;
     }
 }
