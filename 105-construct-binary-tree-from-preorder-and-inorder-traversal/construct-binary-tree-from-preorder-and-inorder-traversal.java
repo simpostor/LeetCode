@@ -42,7 +42,7 @@ class Solution {
         }
         if(m < r){
             //call
-            curr.right = split(preorder, map, rootindex+m-l+1, +m+1,r);
+            curr.right = split(preorder, map, rootindex+m-l+1, m+1,r);
         }
         return curr;
     }
