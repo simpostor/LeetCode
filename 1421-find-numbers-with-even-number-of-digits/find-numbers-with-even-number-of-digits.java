@@ -1,10 +1,9 @@
 class Solution {
     public int findNumbers(int[] nums) {
-        int res = 0;
-        for(int num : nums){
-            if((num>9&&num<100)||(num>999&&num<10000)||num==100000)
-                res++;
+        int result = 0;
+        for (int number: nums) {
+            if ((number > 9 && number < 100) || (number > 999 && number < 10000) || (number == 100000)) result++;
         }
-        return res;
+        return result;
     }
 }
