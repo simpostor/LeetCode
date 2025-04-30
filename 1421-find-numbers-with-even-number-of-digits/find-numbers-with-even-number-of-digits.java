@@ -1,16 +1,10 @@
 class Solution {
     public int findNumbers(int[] nums) {
-        int evencount = 0;
+        int res = 0;
         for(int num : nums){
-            int digit = 0;
-            int number = num;
-            while(number>0){
-                number /= 10;
-                digit++;
-            }
-            if(digit%2 == 0)
-                evencount++;
+            if((num>9&&num<100)||(num>999&&num<10000)||num==100000)
+                res++;
         }
-        return evencount;
+        return res;
     }
 }
