@@ -3,9 +3,7 @@ class Solution {
         int l = 0; int r = s.length()-1;
         if(s.length() == 1)return true;
         while(l<r){
-            //skip till valid l
-            //skip till valid r
-            //compare and return false if not same
+
             while(l<r && !Character.isLetterOrDigit(s.charAt(l))) l++;
             while(l<r && !Character.isLetterOrDigit(s.charAt(r))) r--;
 
